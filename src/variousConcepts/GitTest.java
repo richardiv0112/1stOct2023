@@ -3,6 +3,17 @@ package variousConcepts;
 public class GitTest {
 
 	public static void main(String[] args) {
-		System.out.println("Test");
+		printMe();
+		printMe1();
+		printMe2();
+	}
+	public static void printMe() {
+		System.out.println(1);
+	}
+	public static void printMe1() {
+		System.out.println();
+	}
+	public static void printMe2() {
+		System.out.println();
 	}
 }
